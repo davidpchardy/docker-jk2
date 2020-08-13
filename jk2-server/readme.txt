@@ -1,7 +1,6 @@
 Star Wars Jedi Knight II dedicated server for Linux.
 Version 1.04b (this binary requires the pak files from the 1.03 and 1.04 patches)
 
-
 With much gratitude to James Drews (drews@engr.wisc.edu) for compiling this 
 and sorting out the problems.
 
@@ -12,7 +11,6 @@ the 1.04b archive file.
 Updated Binary includes fixes for:
 Protocol changed to prevent confusion attempting to connect to previous versions.
 ( you must install the 1.03 and 1.04 patches first to get the new pk3 files! )
-
 
 previous releases:
 1.03a-fix com_error on very large packet fragments
@@ -60,7 +58,6 @@ the master server. If you wish to have a LAN play only server, change your serve
 config to set dedicated 1, or change the command line to be:
     ./jk2ded +set dedicated 1 + exec server.cfg
 
-
 Notes:
 -The game will look in the base directory or home directory of the user running the 
   program (~/.jk2/)
@@ -71,11 +68,3 @@ Notes:
 -If you are running the server behind a NAT box, any client machine also behind
  that NAT box will not be able to see the server listed in the "internet" list.
  Switch to the local lan setting instead.
-
-
-© 2002 LucasArts Entertainment Company LLC, © 2002 Lucasfilm Ltd 
-& ™ or ® as indicated. All rights reserved. Used Under Authorization. 
-LucasArts and the LucasArts logo are registered trademarks of Lucasfilm Ltd. 
-Activision is a registered trademark of Activision, Inc. © 2002 Activision, Inc. 
-This product contains software technology licensed from Id Software, Inc. Id Technology © 1999-2002 Id Software, Inc. 
-All other trademarks and trade names are the properties of their respective owners.
