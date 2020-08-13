@@ -1,7 +1,0 @@
-docker-jk2:
-    image: docker-jk2
-    restart: always
-    ports:
-        - "28060-28081:28060-28081/udp"
-    volumes:
-        - ./jk2-server/:/root/
