@@ -1,5 +1,5 @@
 FROM ubuntu
-MAINTAINER Pat Hartl & Stephen Sorriaux
+LABEL MAINTAINER="David Hardy"
 
 # Add compatibility for x86 binaries
 RUN dpkg --add-architecture i386
